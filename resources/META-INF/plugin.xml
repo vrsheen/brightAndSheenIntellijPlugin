@@ -1,0 +1,73 @@
+<idea-plugin>
+  <id>sheendevelops</id>
+  <name>Bright and Sheen Theme</name>
+  <version>1.6</version>
+  <vendor email="sheendevelops@gmail.com" url="http://www.plugin.sheenweb.fun">SheenPlugin</vendor>
+
+  <description><![CDATA[
+<div style='font-size:11px;'>
+  Adds Visual Studio Code styled Bright and Sheen color theme to IntelliJ
+  <br>
+  <br>
+  <p><strong><u>Notable features:</u></strong></p>
+  <p>Theme is specifically created to work well with Java and Spring projects. Makes the code readability better and faster productivity.</p>
+  <br>
+  <br>
+  <p><strong><u>To install:</u></strong></p>
+  <ul>
+    <li>Go to Settings | Plugins, find the theme plugin and install it</li>
+    <li>Restart the IDE</li>
+    <li>Go to Settings | Appearance &amp; Behavior | Appearance and select Bright and Shine in the Theme dropdown</li>
+    <li>Or to select only an editor scheme go to Settings | Editor | Color Scheme and select Bright and Shine in the Scheme dropdown</li>
+  </ul>
+  <br>
+
+  <p><strong><u>Screenshots:</u></strong></p>
+  <br>
+  <p><strong>Controller:</strong></p><br>
+  <img src='https://raw.githubusercontent.com/sheendevelops/brightAndSheen/master/resources/images/pg1.jpg' alt="SpringBoot Controller" width="900">
+  <br><br>
+  <p><strong>Services:</strong></p><br>
+  <img src='https://raw.githubusercontent.com/sheendevelops/brightAndSheen/master/resources/images/pg2.jpg' alt="SpringBoot Services" width="900">
+  <br><br>
+  <p><strong>Apply Theme:</strong></p><br>
+  <img src='https://raw.githubusercontent.com/sheendevelops/brightAndSheen/master/resources/images/applyTheme.jpg' alt="SpringBoot Services" width="900">
+    <br>
+    <br>
+</div>
+    ]]></description>
+
+  <change-notes><![CDATA[
+  <p style='font-size:9px;'>
+      Version 1.4.1 - Font size for windows and screenshots
+      <br>
+      Version 1.4 - Font size, screenshots and background color
+      <br>
+      Version 1.3 - XML, JSON and Code Diff
+      <br>
+      Version 1.2 - Plugin version Update
+      <br>
+      Version 1.1 - Logo
+      <br>
+      Version 1.0 - Plugin Theme features
+    </p>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="a35191bf-e5b7-4d7d-9d14-1bb49d7af75e" path="/bright_and_sheen.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
